@@ -47,3 +47,12 @@ A basic login form, with validation errors.
 
 {{ /user:login_form }}
 ```
+
+## Remembering users
+
+If you would like to provide "remember me" functionality, you may include a boolean named `remember` within the login form. This will allow users to choose to remain authenticated indefinitely, or until they manually logout. For example:
+
+```
+<label>Remember me</label>
+<input type="checkbox" name="remember">
+```
